@@ -5,7 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
-
+html {
+  font-family: 'Work Sans', sans-serif;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -25,10 +27,15 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
-
+.parallax-container .section {
+  width: 100%;
+}
+.parallax-container  {
+  text-shadow: 0px 0px 4px #000000;
+}
+.parallax-container .btn-large {
+  text-shadow: none;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
