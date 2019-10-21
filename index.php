@@ -26,7 +26,7 @@ $thankYou="Your message has been sent.";
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav class="white" role="navigation">
