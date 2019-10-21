@@ -19,7 +19,7 @@ $thankYou="Your message has been sent.";
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Loftin Group</title>
+  <title>VSP Group</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -47,7 +47,7 @@ $thankYou="Your message has been sent.";
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center teal-text text-lighten-2">VSP Group</h1>
         <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
         </div>
@@ -58,7 +58,7 @@ $thankYou="Your message has been sent.";
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="grapes.jpg" alt="Winery"></div>
   </div>
 
 
@@ -107,7 +107,7 @@ $thankYou="Your message has been sent.";
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="winery-2.jpg" alt="Winery 2"></div>
   </div>
 
   <div class="container">
@@ -161,7 +161,7 @@ $thankYou="Your message has been sent.";
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="winery-1.jpg" alt="winery"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -195,7 +195,7 @@ $thankYou="Your message has been sent.";
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="http://mcurrier.com">m. currier designs</a>
       </div>
     </div>
   </footer>
