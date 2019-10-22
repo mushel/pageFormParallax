@@ -33,7 +33,7 @@ $thankYou="Your message has been sent.";
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#one">One Link</a></li>
         <li><a href="#two">Two Link</a></li>
@@ -51,7 +51,7 @@ $thankYou="Your message has been sent.";
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center orange-text text-darken-3">Valley Strategic Partners Finance</h1>
+        <h1 class="header center">Valley Strategic Partners Finance</h1>
         <div class="row center">
           <h5 class="header col s12 light">Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
 project-based financial management support to the winemaker and winegrower industry.
@@ -76,16 +76,16 @@ Together, we have over 50 years’ experience in strategic financial support to 
             <h2 class="center purple-text text-darken-3"><i class="material-icons">flash_on</i></h2>
             <h5 class="center purple-text text-darken-4">Speeds up development</h5>
 
-            <p class="purple-text text-darken-3">Deep knowledge and understanding of wine industry business dynamics, barriers, and opportunities. Experience in financial management and leadership positions, focusing financial information to help make better operating decisions.</p>
+            <p>Deep knowledge and understanding of wine industry business dynamics, barriers, and opportunities. Experience in financial management and leadership positions, focusing financial information to help make better operating decisions.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center orange-text text-darken-3"><i class="material-icons">group</i></h2>
-            <h5 class="center orange-text text-darken-4">User Experience Focused</h5>
+            <h2 class="center gold-text"><i class="material-icons">group</i></h2>
+            <h5 class="center gold-text ">User Experience Focused</h5>
 
-            <p class="orange-text text-darken-3">Proven success in both contracted engagements as well as longer term roles with clients, with an ability to quickly identify those barriers and opportunities, as well as the solutions and plans to address them.</p>
+            <p>Proven success in both contracted engagements as well as longer term roles with clients, with an ability to quickly identify those barriers and opportunities, as well as the solutions and plans to address them.</p>
           </div>
         </div>
 
@@ -94,7 +94,7 @@ Together, we have over 50 years’ experience in strategic financial support to 
             <h2 class="center teal-text text-darken-3"><i class="material-icons">settings</i></h2>
             <h5 class="center teal-text text-darken-4">Easy to work with</h5>
 
-            <p class="teal-text text-darken-3">Demonstrated results in setting and achieving objective client metrics, with the strongest commitment possible to client success.</p>
+            <p>Demonstrated results in setting and achieving objective client metrics, with the strongest commitment possible to client success.</p>
           </div>
         </div>
       </div>
@@ -102,39 +102,12 @@ Together, we have over 50 years’ experience in strategic financial support to 
     </div>
   </div>
 
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h2 class="teal-text text-lighten-1">Valley Strategic Partners can add immediate value to your business.</h2>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="winery-2.jpg" alt="Winery 2"></div>
-  </div>
-  <div class="container">
-    <div class="section no-pad-bot">
-      <div class="row">
-        <p class="teal-text text-lighten-3 col s12 m4">Access to consistent financial reporting in dashboard format that helps you quickly understand the status of key business metrics.
-        </p>
-        <p class="teal-text text-lighten-3 col s12 m4">Data presented in a way that helps you both make immediate decisions as well as understand longer term strategic opportunities.
-        </p>
-        <p class="teal-text text-lighten-3 col s12 m4">Clear understanding of consumer analytics and how those connect to your financial success. We help you know your core consumer, the best way to communicate with them, and how to find more of them.</p>
-      </div>
-    </div>
-  </div>
-  
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-        <h2 class="header col s12 light">Does your team…</h2>
-          
-        </div>
-       
+        <h2 class="header col s12 light">Does your team…</h2>      
+        </div>      
       </div>
     </div>
     <div class="parallax"><img src="winery-1.jpg" alt="winery"></div>
@@ -148,7 +121,7 @@ Together, we have over 50 years’ experience in strategic financial support to 
           Have a clear understanding of consumer analytics and how those connect to your financial success? Do you know your core consumer, the best way to communicate with them, and how to find more of them?</p>
     </div>
     <div class="row">
-      <h5 class="purple-text text-darken-4 col s12">If you cannot confidently answer yes to these questions, Valley Strategic
+      <h5 class="gold-text col s12">If you cannot confidently answer yes to these questions, Valley Strategic
 Partners can add immediate value to your business. Reach out to us today!</h5>
     </div>
   </div>
@@ -186,12 +159,21 @@ Partners can add immediate value to your business. Reach out to us today!</h5>
                     </div> 
                                      
                 </div>
-              </form>     
-         
+              </form>             
         </div>
       </div>
 
     </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h2 class="teal-text text-lighten-1">Valley Strategic Partners can add immediate value to your business.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="winery-2.jpg" alt="Winery 2"></div>
   </div>
   <footer class="page-footer purple darken-4">
     <div class="container">
