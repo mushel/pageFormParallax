@@ -6,7 +6,7 @@ $email = $_POST["email"];
 $name = $_POST["name"];
 $msg = $_POST["msg"];
 
-$headers = "From: info@gocirca.com";
+$headers = "From: keith@vspfinance.com";
 $mailBody="Name: $name\nEmail: $email\n\n$msg";
 
 mail($to,$subject,$mailBody,$headers);
@@ -53,9 +53,9 @@ $thankYou="Your message has been sent.";
         <br><br>
         <h1 class="header center">Valley Strategic Partners Finance</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
+          <p class="header col s12 light">Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
 project-based financial management support to the winemaker and winegrower industry.
-Together, we have over 50 years’ experience in strategic financial support to our clients.</h5>
+Together, we have over 50 years’ experience in strategic financial support to our clients.</p>
         </div>
         <div class="row center">
           <a href="#two" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Get Started</a>

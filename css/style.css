@@ -4,13 +4,18 @@
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
+ * and Michelle Claire Currier of m. currier designs
  */
+@font-face {
+  font-family: "Copperplate";
+  src: url('OPTICopperplate.otf');
+}
 html {
   font-family: 'Work Sans', sans-serif;
   background: #EEE9E2;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Copperplate', serif;
 }
 nav ul a,
 nav .brand-logo {
@@ -66,11 +71,15 @@ p {
   background-size: contain;
 }
 .gold {
-  background: #83794A;
+  background-color: #83794A;
 }
-.gold-text {
-  color: #83794A;
+.gold-text, nav ul a:hover, .page-footer ul li a:hover {
+  color: #83794A !important;
 }
+nav ul a:hover {
+  background-color: #F5F0EC;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -78,6 +87,19 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+  .brand-logo {
+    height: 52px;
+    margin-top: 1px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 1.4rem;
   }
 }
 
