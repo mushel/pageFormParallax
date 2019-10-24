@@ -50,12 +50,12 @@ $thankYou="Your message has been sent.";
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
+        <br class="hide-on-med-and-down"><br>
         <h1 class="header center">Valley Strategic Partners Finance</h1>
         <div class="row center">
-          <p class="header col s12 light">Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
+          <h5 class="header col s12 light hide-on-med-and-down">Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
 project-based financial management support to the winemaker and winegrower industry.
-Together, we have over 50 years’ experience in strategic financial support to our clients.</p>
+Together, we have over 50 years’ experience in strategic financial support to our clients.</h5>
         </div>
         <div class="row center">
           <a href="#two" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Get Started</a>
@@ -68,7 +68,11 @@ Together, we have over 50 years’ experience in strategic financial support to 
   </div>
   <div class="container">
     <div id="one" class="section">
-
+      <div class="row hide-on-large-only">
+        <p>Valley Strategic Partners LLC is a focused team of CFO-level executives who provide
+project-based financial management support to the winemaker and winegrower industry.
+Together, we have over 50 years’ experience in strategic financial support to our clients.</p>
+      </div>
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
@@ -169,7 +173,7 @@ Partners can add immediate value to your business. Reach out to us today!</h5>
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h2 class="teal-text text-lighten-1">Valley Strategic Partners can add immediate value to your business.</h2>
+          <h3 class="teal-text text-lighten-1">Valley Strategic Partners can add immediate value to your business.</h3>
         </div>
       </div>
     </div>
@@ -195,6 +199,7 @@ Partners can add immediate value to your business. Reach out to us today!</h5>
         </div>
         <div class="col l3 s12">
           <ul>
+            <li>Keith Crawford</li>
             <li>1461 Main Street, #551</li>
             <li>St. Helena, California 94574</li>
             <li>504.717.3821</li>
