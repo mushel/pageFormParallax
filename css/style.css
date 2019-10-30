@@ -83,7 +83,9 @@ p {
 nav ul a:hover {
   background-color: #F5F0EC;
 }
-
+i.big {
+  font-size: 4rem;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
