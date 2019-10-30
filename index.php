@@ -37,11 +37,13 @@ $thankYou="Your message has been sent.";
       <ul class="right hide-on-med-and-down">
         <li><a href="#one">One Link</a></li>
         <li><a href="#two">Two Link</a></li>
+        <li><a href="slider.html">Slider</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#one">One Link</a></li>
         <li><a href="#two">Two Link</a></li>
+        <li><a href="slider.html">Slider</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -58,7 +60,7 @@ project-based financial management support to the winemaker and winegrower indus
 Together, we have over 50 years’ experience in strategic financial support to our clients.</h5>
         </div>
         <div class="row center">
-          <a href="#two" id="download-button" class="btn-large waves-effect waves-light purple darken-3">Get Started</a>
+          <a href="#two" id="download-button" class="btn-large waves-effect waves-light wine">Get Started</a>
         </div>
         <br><br>
 
@@ -77,8 +79,8 @@ Together, we have over 50 years’ experience in strategic financial support to 
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center purple-text text-darken-3"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center purple-text text-darken-4">Speeds up development</h5>
+            <h2 class="center wine-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center wine-text">Speeds up development</h5>
 
             <p>Deep knowledge and understanding of wine industry business dynamics, barriers, and opportunities. Experience in financial management and leadership positions, focusing financial information to help make better operating decisions.</p>
           </div>
@@ -86,8 +88,8 @@ Together, we have over 50 years’ experience in strategic financial support to 
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center gold-text"><i class="material-icons">group</i></h2>
-            <h5 class="center gold-text ">User Experience Focused</h5>
+            <h2 class="center olive-text"><i class="material-icons">group</i></h2>
+            <h5 class="center olive-text ">User Experience Focused</h5>
 
             <p>Proven success in both contracted engagements as well as longer term roles with clients, with an ability to quickly identify those barriers and opportunities, as well as the solutions and plans to address them.</p>
           </div>
@@ -118,14 +120,14 @@ Together, we have over 50 years’ experience in strategic financial support to 
   </div>
   <div class="container">
     <div class="row">
-      <p class="teal-text text-darken-2 col l4 s12">Have access to consistent financial reporting in dashboard format that helps you quickly understand the status of key business metrics?</p>
-      <p class="teal-text text-darken-2 col l4 s12">
+      <p class="teal-text text-darken-4 col l4 s12">Have access to consistent financial reporting in dashboard format that helps you quickly understand the status of key business metrics?</p>
+      <p class="teal-text text-darken-4 col l4 s12">
           Have that data presented in a way that helps you both make immediate decisions as well as understand longer term strategic opportunities?</p>
-      <p class="teal-text text-darken-2 col l4 s12">
+      <p class="teal-text text-darken-4 col l4 s12">
           Have a clear understanding of consumer analytics and how those connect to your financial success? Do you know your core consumer, the best way to communicate with them, and how to find more of them?</p>
     </div>
     <div class="row">
-      <h5 class="gold-text col s12">If you cannot confidently answer yes to these questions, Valley Strategic
+      <h5 class="olive-text col s12">If you cannot confidently answer yes to these questions, Valley Strategic
 Partners can add immediate value to your business. Reach out to us today!</h5>
     </div>
   </div>
@@ -158,7 +160,7 @@ Partners can add immediate value to your business. Reach out to us today!</h5>
                       <?=$thankYou?>
                     </div>
                     <div class="input-field col m3 s12">
-                      <button class="btn waves-effect waves-light purple darken-3" type="submit" name="submit" value="submit" id="send">Submit
+                      <button class="btn waves-effect waves-light wine" type="submit" name="submit" value="submit" id="send">Submit
                       </button>    
                     </div> 
                                      
@@ -173,13 +175,13 @@ Partners can add immediate value to your business. Reach out to us today!</h5>
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="teal-text text-lighten-1">Valley Strategic Partners can add immediate value to your business.</h3>
+          <h3>Valley Strategic Partners can add immediate value to your business.</h3>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="winery-2.jpg" alt="Winery 2"></div>
   </div>
-  <footer class="page-footer purple darken-4">
+  <footer class="page-footer wine">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
