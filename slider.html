@@ -17,7 +17,7 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"></a>
+      <a id="logo-container" href="#" class="brand-logo logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#one">One Link</a></li>
         <li><a href="slider.html">Slider</a></li>
@@ -40,17 +40,67 @@
     <div class="container">
         <div class="row">
             <div class="col s4 center">
+                <h5>Mermaid Tails</h5>
                 <i class="material-icons big">pool</i>
+                <p class="left-align">
+                  Mermaid Tails are made by hand at Costumegasm headquarters. They are 100% swim-proof. Comprized of at least three different fabrics including two-way sequin scales. All the inner seams are bound with japanese elastic for comfort. Wide elastic and a high-waist keep everything in place. They are designed to fit Fin Fun Monofins for maximum mer time. Side fins and monofin extensions add beauty and flow creating graceful under water swim time. Use the mermaid measurments chart to send your sizing.
+                </p>
             </div>
             <div class="col s4 center">
+                <h5>Custom Fur Coats</h5>
                 <i class="material-icons big">palette</i>
+                <p class="left-align">
+                  Custom playa coats made to order at any length will keep you warm and looking sharp. Fur lining is available for extra coziness. Options for pockets, detachable hoods, and lighting. Pick from an array of fur or fabric to create a one of a kind coat. Turn around is about a month and cuttoff date is june 21st. Use the coat measurments chart to send your sizing.
+                </p>
             </div>
             <div class="col s4 center">
+                <h5>Pasties</h5>
                 <i class="material-icons big">favorite</i>
+                <p class="left-align">
+                  Easy to use peal and stick pasties available in a array of styles. Great for nipple coverage as a nice accent to any costume. Inquire about bulk rates for orders over 12 pairs.
+                </p>
             </div>
         </div>
     </div>
-<footer class="page-footer wine">
+    <div class="row">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s8">
+                <div class="row">
+                    <h5>This is an item</h5>
+                    <img class="materialboxed responsive-img" src="costumegasmcard.jpg">
+                </div>  
+                <div class="row thumbnails"> 
+                  <img class="materialboxed responsive-img col s4" width="650" src="http://lorempixel.com/output/cats-q-c-490-410-4.jpg">
+                
+                  <img class="materialboxed responsive-img col s4" width="650" src="http://lorempixel.com/output/cats-q-c-490-410-5.jpg">
+                  
+                  <img class="materialboxed responsive-img col s4" width="650" src="http://lorempixel.com/output/nature-q-c-490-410-10.jpg">
+                </div>
+                <a href="http://lorempixel.com/">random images</a>
+            </div>
+            <div class="col s4">
+                <p>there's some info about the item here</p>
+                <br>
+                <form>
+                    <div class="input-field">
+                        <select>
+                            <option>small</option>
+                            <option>medium</option>
+                            <option>large</option>
+                        </select>
+                        <label>
+                            Pick your size:    
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer wine">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -98,12 +148,21 @@
   <script src="js/init.js"></script>
   <script>
 
-      $('.carousel.carousel-slider').carousel({
+    $('.carousel.carousel-slider').carousel({
         fullWidth: true
-      });
-      var autoplay = true;
-setInterval(function() { if(autoplay) $('.carousel.carousel-slider').carousel('next'); }, 4500);
-$('.carousel.carousel-slider').hover(function(){ autoplay = false; },function(){ autoplay = true; });
+    });
+    var autoplay = true;
+    setInterval(function() { if(autoplay) $('.carousel.carousel-slider').carousel('next'); }, 4500);
+        $('.carousel.carousel-slider').hover(function(){ autoplay = false;},function(){ autoplay = true; 
+    });
+
+    $(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });
+
+    $(document).ready(function(){
+        $('select').formSelect();
+    });
     </script>
   
   </body>

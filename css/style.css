@@ -65,6 +65,12 @@ p {
   margin-top: 2px;
   background-size: contain;
 }
+.logo {
+  background: url('../costumegasmcard.jpg') no-repeat;
+  width: 136px;
+  height: 67px !important;
+  background-size: contain;
+}
 .olive {
   background-color: #7d7b4b;
 }
@@ -85,6 +91,10 @@ nav ul a:hover {
 }
 i.big {
   font-size: 4rem;
+}
+.thumbnails {
+  margin-right: -1.5rem !important;
+  margin-left: -1.5rem !important;
 }
 
 @media only screen and (max-width : 992px) {
